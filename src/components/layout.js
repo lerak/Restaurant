@@ -9,11 +9,12 @@ import React from "react"
 import PropTypes from "prop-types"
 // import { StaticQuery, graphql } from "gatsby"
 import {createGlobalStyle} from "styled-components"
-
+import Navbar from "./globals/navbar/Navbar"
 const Layout = ( {children}) => {
   return (
     <React.Fragment>
        <GlobalStyle/>
+       <Navbar />
       {children}
     </React.Fragment>
      
