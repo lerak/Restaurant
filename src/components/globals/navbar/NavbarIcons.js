@@ -4,7 +4,7 @@ export default class p extends Component {
   render() {
     return (
       <div>
-       <p>icons</p> 
+       
       </div>
     )
   }

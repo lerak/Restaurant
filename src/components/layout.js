@@ -38,7 +38,7 @@ const GlobalStyle = createGlobalStyle`
 
 body{
   font-family: 'Roboto', sans-serif;
-  color: rgba(225, 237, 233, 0.2));
+  color: rgba(225, 237, 233, 0.2);
   background-color: rgba(0,0,0,0.1);
 }
 `
